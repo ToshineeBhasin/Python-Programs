@@ -1,7 +1,8 @@
+'''
 The Fibonacci Sequence is the series of numbers:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 The next number is found by adding up the two numbers before it:
-
+'''
 # Program to display the Fibonacci sequence up to n-th term
 
 maxlimit=int(input("Enter maximum limit to print fibonacci numbers :"))
@@ -18,8 +19,9 @@ while maxlimit>count:
     num1=num2
     num2=num
     count=count+1
-    
+'''    
 output:
 Enter maximum limit to print fibonacci numbers :10
 Fibonacci series
 0 1 1 2 3 5 8 13 21 34 55 89 
+'''
