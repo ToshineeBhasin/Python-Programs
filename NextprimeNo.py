@@ -1,8 +1,3 @@
-'''
-Created on 15-May-2020
-
-@author: Toshinee Bhasin
-'''
 #program to print next prime number of given number
 num=int(input("Enter the number :"))
 
