@@ -1,9 +1,5 @@
-'''
-Created on 15-May-2020
-
-@author: Toshinee Bhasin
-'''
 #Program to find factorial of a number
+
 num=int(input("Enter a number :"))
 fact=1
 while num>1:
