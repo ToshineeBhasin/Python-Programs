@@ -1,8 +1,5 @@
-'''
-Created on 15-May-2020
+#Program to make a simple calculator
 
-@author: Toshinee Bhasin
-'''
 def add(a,b):
     print("sum of two numbers is ",a+b)
 
