@@ -1,11 +1,14 @@
 # Program to find the ASCII value of the given character
 
 '''
+ASCII stands for American Standard Code for Information Interchange.
 ASCII value of number (0-9) is 48-57
 ASCII value of A-Z is 65-90
 ASCII value of a-z is 97-122
-'''
 
+Here we have used ord() function to convert a character to an integer
+(ASCII value). This function returns the Unicode code point of that character.
+'''
 ch=input("Enter character :")
 
 print("The ASCII value of '" + ch + "' is", ord(ch))
