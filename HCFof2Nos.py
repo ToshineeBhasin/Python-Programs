@@ -1,4 +1,4 @@
-#program to find HCF of two numbers 
+#program to find HCF or GCD of two numbers 
 print("Enter two numbers :")
 num1=int(input("Enter first number :"))
 num2=int(input("Enter Second number :"))
