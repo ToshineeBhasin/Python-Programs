@@ -1,8 +1,3 @@
-'''
-Created on 18-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Program to find the ASCII value of the given character
 
 '''
