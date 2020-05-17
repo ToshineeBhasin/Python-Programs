@@ -1,9 +1,4 @@
 '''
-Created on 17-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
 The least common multiple (L.C.M.) of two numbers is the 
 smallest positive integer that is perfectly divisible by 
 the two given numbers.
