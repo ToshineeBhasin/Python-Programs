@@ -1,8 +1,3 @@
-'''
-Created on 17-May-2020
-
-@author: Toshinee Bhasin
-'''
 #Program to find factors of a number 
 x=int(input("Enter the number : "))
 print("Factors of", x," are ")
