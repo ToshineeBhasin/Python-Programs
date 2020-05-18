@@ -1,9 +1,4 @@
 '''
-Created on 18-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
 Python map() function
 map() function returns a map object(which is an iterator) of the results 
 after applying the given function to each item of a given 
