@@ -4,6 +4,8 @@ for i in range(1,6):
     for j in range(i,6):
         print('*',end="")
 
+'''
+output:
 *****
 ****
 ***
@@ -16,6 +18,8 @@ for i in range(1,6):
     for j in range(0,i):
         print('*',end="")
 
+'''
+Output:
 *
 **
 ***
@@ -27,7 +31,9 @@ for i in range(1,6):
     print()
     for j in range(i,6):
         print(j,end="")
-        
+  
+'''
+output:
 12345
 2345
 345
@@ -39,7 +45,8 @@ for i in range(1,7):
     print()
     for j in range(1,i):
         print(j,end="")
-        
+'''
+output:
 1
 12
 123
@@ -55,6 +62,9 @@ for i in range(1,6):
         print(j,end="")
         
     sp=sp-1
+    
+'''
+output:
    1
   12
  123
@@ -71,7 +81,8 @@ for i in range(1,6):
         
     sp=sp-1
     
-   
+'''
+output:
    *
   **
  ***
@@ -90,7 +101,8 @@ for i in range(1,6):
         
     sp=sp-1
     n=n+2
-    
+'''
+output:
      *
     ***
    *****
@@ -105,7 +117,9 @@ for i in range(1,6):
     for j in range(1,i+1):
         print(n,end="")
     n=n+1
-    
+'''
+output:
+
 1
 22
 333
@@ -119,7 +133,8 @@ for i in range(6,1,-1):#i=6
     for j in range(1,i):#j=1,5
         print(n,end="")
     n=n-1
-
+'''
+output:
 55555
 4444
 333
