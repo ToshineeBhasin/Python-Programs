@@ -1,9 +1,4 @@
-'''
-Created on 05-May-2020
-
-@author: Toshinee Bhasin
-'''
-'''
+#Pattern 1
 for i in range(1,6):
     print()
     for j in range(i,6):
@@ -15,7 +10,7 @@ for i in range(1,6):
 **
 *
 '''
-'''
+ #pattern 2
 for i in range(1,6):
     print()
     for j in range(0,i):
@@ -27,7 +22,7 @@ for i in range(1,6):
 ****
 *****
 '''
-'''
+#pattern 3
 for i in range(1,6):
     print()
     for j in range(i,6):
@@ -39,7 +34,7 @@ for i in range(1,6):
 45
 5        
 '''
-'''
+#pattern 4
 for i in range(1,7):
     print()
     for j in range(1,i):
@@ -50,7 +45,7 @@ for i in range(1,7):
 123
 1234
 '''
-'''
+#pattern 5
 sp=5
 for i in range(1,6):
     print()
@@ -65,7 +60,7 @@ for i in range(1,6):
  123
 1234
 '''
-'''
+#pattern 6
 sp=5
 for i in range(1,6):
     print()
@@ -82,7 +77,8 @@ for i in range(1,6):
  ***
 ****
 '''
-'''
+
+#pattern 7
 n=1
 sp=4
 for i in range(1,6):
@@ -101,7 +97,8 @@ for i in range(1,6):
   *******
  *********
 '''
-'''
+
+#Pattern 8
 n=1
 for i in range(1,6):
     print()
@@ -115,7 +112,7 @@ for i in range(1,6):
 4444
 55555
 '''
-'''
+ #pattern 9
 n=5
 for i in range(6,1,-1):#i=6
     print()
@@ -129,25 +126,7 @@ for i in range(6,1,-1):#i=6
 22
 1
 '''
-'''
-n=5
-for i in range(6,1,-1):#i=6
-    print()
-    for j in range(1,i):#j=1,5
-        print(n,end="")
-    n=n-1
-
-'''
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     
     
