@@ -1,11 +1,5 @@
-'''
-Created on 20-May-2020
-
-@author: Toshinee Bhasin
-'''
-
-'''
 #Program to create class in python which has in-built function _init_ from where code starts
+
 class Person:
     def __init__(self,name,age):
         self.name=name
@@ -15,11 +9,10 @@ p1=Person("Toshi",23)
 print("Name :",p1.name)
 print("Age :",p1.age)
 
+'''
 Output:
 Name : Toshi
 Age : 23
-'''
-
 '''
 
 #program to create class having function name myfunc
@@ -35,12 +28,13 @@ class Person:
 p1=Person("Toshi",22)
 p1.myfunc()
 
+'''
 output:
 Hello!!! My name is  Toshi
 My age is  22
 '''
-'''
 #self parameter
+
 class Person:
     def __init__(self,name,age):
         self.name=name
@@ -52,9 +46,9 @@ class Person:
 p1=Person("Abhishek",24)
 p1.myfunc()
 
+'''
 output:
 Hello my name is Abhishek
-
 '''
 
 
