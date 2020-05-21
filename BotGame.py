@@ -1,8 +1,4 @@
-'''
-Created on 21-May-2020
-
-@author: Toshinee Bhasin
-'''
+# Chrome dino bot(automatically runs) program
 from PIL import ImageGrab
 import pyautogui
 from time import sleep
