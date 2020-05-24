@@ -1,8 +1,3 @@
-'''
-Created on 24-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Python program to find the sum of natural using recursive function
 
 def recur_sum(num):
