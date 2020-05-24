@@ -1,8 +1,3 @@
-'''
-Created on 24-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Factorial of a number using recursion
 
 def recur_factorial(n):
