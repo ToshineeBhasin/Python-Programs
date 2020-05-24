@@ -1,8 +1,3 @@
-'''
-Created on 24-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Python program to display the Fibonacci sequence
 
 def fibo_recur(num):
