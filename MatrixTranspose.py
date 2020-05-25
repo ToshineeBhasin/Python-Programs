@@ -1,8 +1,3 @@
-'''
-Created on 25-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Program to transpose a matrix using a nested loop
 
 X = [[1,4],
