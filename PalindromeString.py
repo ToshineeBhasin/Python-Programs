@@ -1,8 +1,3 @@
-'''
-Created on 25-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Program to check if a string is palindrome or not
 
 my_str = input("Enter the string :")
