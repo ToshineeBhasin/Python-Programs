@@ -1,8 +1,3 @@
-'''
-Created on 25-May-2020
-
-@author: Toshinee Bhasin
-'''
 # Program to add two matrices using nested loop
 X = [[12,7,3],
     [4 ,5,6],
