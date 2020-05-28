@@ -1,8 +1,4 @@
-'''
-Created on 28-May-2020
-
-@author: Toshinee Bhasin
-'''
+#Try catch block using input statement
 '''
 
 a=int(input("Enter first number :"))
