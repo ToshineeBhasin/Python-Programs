@@ -1,8 +1,4 @@
-'''
-Created on 28-May-2020
-
-@author: Toshinee Bhasin
-'''
+#operations on set
 s={1,2,4,6,7}
 print(s)        #{1, 2, 4, 6, 7}
 s.add(9)
