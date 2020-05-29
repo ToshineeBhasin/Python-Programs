@@ -1,8 +1,3 @@
-'''
-Created on 29-May-2020
-
-@author: Toshinee Bhasin
-'''
 #program to check whether a number is valid or invalid
 valid=0
 invalid=0
