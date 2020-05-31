@@ -32,7 +32,7 @@ x = {
 y = json.dumps(x)
 
 # the result is a JSON string:
-print(y)            #{"name": "Toshi", "age": 30, "city": "Pune"}
+print(y)            # output : {"name": "Toshi", "age": 30, "city": "Pune"}
 
 
 #Convert Python objects into JSON strings, and print the values:
