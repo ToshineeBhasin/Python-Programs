@@ -14,10 +14,10 @@ x = '{ "name":"Toshi", "age":30, "city":"Pune"}'
 y = json.loads(x)
 
 # the result is a Python dictionary:
-print(y["age"])         #30
-print(y["name"])        #Toshi
-print(y["city"])        #Pune
-print(y)                #{'name': 'Toshi', 'age': 30, 'city': 'Pune'}
+print(y["age"])         # output : 30
+print(y["name"])        # output : Toshi
+print(y["city"])        # output : Pune
+print(y)                # output : {'name': 'Toshi', 'age': 30, 'city': 'Pune'}
 
 
 #Convert from Python to JSON:
