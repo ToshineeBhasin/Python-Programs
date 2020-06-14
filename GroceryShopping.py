@@ -1,3 +1,8 @@
+'''
+Created on 13-Jun-2020
+
+@author: Toshinee Bhasin
+'''
 #data stored in file
 shopping_list = ["banana", "orange", "apple","shirts","utensils","curtains","stationary"]
 
@@ -47,16 +52,21 @@ def shop():
     if i in shopping_list:
             print("Yes!!! It is available")
             quantity = int(input("How  much quantity you want :"))
-            ans=input("Do you want to purchase it (yes/no)?")
+            #ans=input("Do you want to purchase it (yes/no)?")
             if quantity < stock.get(i):
                     y=stock.get(i)
+                    ans=input("Do you want to purchase it (yes/no)?")
+
                     if ans == "yes":
                         print(quantity,"has been purchased.")
                         avail=y-quantity
                         print("Available Quantity is ",avail)       
                         rate= quantity * prices.get(i)
                         print("Price for purchased item is ",rate)
+                        ask()
                         exit()
+                    else:
+                        ask()
               
             else:
                     print("Available quantity is",stock.get(i))  
@@ -71,16 +81,25 @@ def shop():
                             #exit()
                         avail=stock.get(i) - quantity 
                         print("Available Quantity is ",avail)
+                        ask()
                         exit()
+                    else:
+                        ask()   
     else:
             print("Sorry not available.")           
-      
-      
+     
+     
+def ask():
+    ans1=input("Any new item you want to buy(yes/no) ???")
+    if ans1 == "yes":
+        shop()
+    else:
+        print("Thanks for shopping")           
 shop()
 
+
+      
+
   
-ans1=input("Any new item you want to buy(yes/no) ???")
-if ans1 == "yes":
-    shop()
 
  
