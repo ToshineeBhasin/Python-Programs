@@ -1,8 +1,3 @@
-'''
-Created on 13-Jun-2020
-
-@author: Toshinee Bhasin
-'''
 #data stored in file
 shopping_list = ["banana", "orange", "apple","shirts","utensils","curtains","stationary"]
 
