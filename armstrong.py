@@ -1,28 +1,27 @@
-# Python program to check if the number is an Armstrong number or not
-
 '''
-An Armstrong number of three digits is an integer such that the sum of
-the cubes of its digits is equal to the number itself. For example, 371 
-is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.
-'''
+Created on 25-Jul-2020
 
-num=int(input("Enter a number :"))
-sum=0
-temp=num
-while temp>0:
-    n=temp%10
-    sum=sum+n**3
-    temp=temp//10
-    
-if num==sum:
-    print(num,"is armstrong")
+@author: Toshinee Bhasin
+'''
+num = int(input("Enter a number: "))
+
+sum = 0
+temp = num
+while temp > 0:
+    digit = temp % 10
+    sum += digit ** 3
+    temp //= 10
+
+if num == sum:
+    print(num,"is an Armstrong number")
 else:
-    print(num,"is not armstrong")
+    print(num,"is not an Armstrong number")
+    
 '''
 output:
-Enter a number :153
-153 is armstrong
-or
-Enter a number :121
-121 is not armstrong
+Enter a number: 153
+153 is an Armstrong number
+or 
+Enter a number: 123
+123 is not an Armstrong number
 '''
