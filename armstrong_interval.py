@@ -1,8 +1,3 @@
-'''
-Created on 25-Jul-2020
-
-@author: Toshinee Bhasin
-'''
 # Program to check Armstrong numbers in a certain interval
 
 lower = eval(input("Enter lower limit :"))
