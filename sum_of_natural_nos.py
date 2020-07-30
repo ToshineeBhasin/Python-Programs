@@ -1,8 +1,4 @@
-'''
-Created on 25-Jul-2020
 
-@author: Toshinee Bhasin
-'''
 # Sum of natural numbers up to num
 
 num = eval(input("Enter the number :"))
