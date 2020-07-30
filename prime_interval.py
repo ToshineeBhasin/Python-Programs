@@ -1,8 +1,4 @@
-'''
-Created on 25-Jul-2020
-
-@author: Toshinee Bhasin
-'''
+#python program to print prime number in a given interval
 u = eval(input("Enter upper limit :"))
 l = eval(input("Enter lower limit :"))
 
