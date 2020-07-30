@@ -1,8 +1,4 @@
-'''
-Created on 25-Jul-2020
-
-@author: Toshinee Bhasin
-'''
+#python program to check whether a number is armstrong or not
 num = int(input("Enter a number: "))
 
 sum = 0
