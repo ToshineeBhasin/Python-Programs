@@ -1,8 +1,4 @@
-'''
-Created on 25-Jul-2020
-
-@author: Toshinee Bhasin
-'''
+#pythno program to print factorial of a given number
 num=int(input("Enter a number :"))
 fact=1
 while num>1:
