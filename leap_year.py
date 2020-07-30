@@ -1,8 +1,4 @@
-'''
-Created on 25-Jul-2020
-
-@author: Toshinee Bhasin
-'''
+#python program to print leap year
 year = eval(input("Enter a year :"))
 if year%4 ==0 or (year%400==0 and year%100!=0):
     print(year," is leap year")
