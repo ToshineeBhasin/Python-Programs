@@ -1,8 +1,4 @@
-'''
-Created on 10-Sep-2020
-
-@author: Toshinee Bhasin
-'''
+#program to find occurance of word "usa"
 str ="These Are absolutely fantastic"
 occurence=0
 for i in range(len(str)-2):
