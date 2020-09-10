@@ -1,9 +1,4 @@
-
-'''
-Created on 09-Sep-2020
-
-@author: Toshinee Bhasin
-'''
+#program to word 'the' from the string.
 s = "This is the student in the class"
 print("Sentence : ",s)
 
